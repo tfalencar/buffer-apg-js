@@ -12,7 +12,7 @@
 
 const thisThis = this;
 
-const Buffer = require('safe-buffer').Buffer;
+const Buffer = require('safer-buffer').Buffer;
 
 /* decoding error codes */
 const NON_SHORTEST = 0xfffffffc;

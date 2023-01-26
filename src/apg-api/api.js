@@ -30,7 +30,7 @@ module.exports = function api(src) {
   const thisFileName = 'api.js: ';
   const thisObject = this;
 
-  const Buffer = require('safe-buffer').Buffer;
+  const Buffer = require('safer-buffer').Buffer;
 
   /* PRIVATE PROPERTIES */
   const apglib = require('../apg-lib/node-exports');
